@@ -33,7 +33,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                     header("Location: admin1.php");  // Admin's dashboard
                     exit();
                 } elseif ($user['role'] == 'inspector') {
-                    header("Location: inspector_dashboard.php");  // Inspector's dashboard
+                    header("Location: dshbrdins.php");  // Inspector's dashboard
                     exit();
                 } elseif ($user['role'] == 'bfp_staff' || $user['status'] == 'approved') {
                     header("Location: staf.php");  // BFP Staff dashboard
