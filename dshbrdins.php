@@ -5,6 +5,8 @@
     <meta content="width=device-width, initial-scale=1.0">
     <title>BFP Record Management</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- FontAwesome CDN for icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
     <style>
         /* Sidebar Styles */
         .sidebar {
@@ -60,6 +62,14 @@
             margin-right: 10px;
         }
 
+        .container {
+            display: flex;
+            justify-content: center; /* Center horizontally */
+            align-items: center; /* Center vertically */
+            min-height: 100vh; /* Make sure the container fills the entire height */
+            padding: 20px; /* Optional: Adds some padding around the container */
+        }
+
         /* Folder Grid Styles */
         .folder-grid {
             display: grid;
@@ -98,9 +108,9 @@
     <!-- Sidebar -->
     <div class="sidebar" id="sidebar">
         <h3 class="text-center text-white">BFP System</h3>
-        <a href="checklist.php"><i class="icon">&#128202;</i> check list</a>
-        <a href="#renewal-establishment"><i class="icon">&#128179;</i> Renewal Establishment</a>
-        <a href="logout.php" class="btn btn-danger">Log Out</a> <!-- Log Out icon -->
+        <a href="checklist.php"><i class="icon fas fa-clipboard-list"></i> Check List</a> <!-- Updated icon -->
+        <a href="#renewal-establishment"><i class="icon fas fa-business-time"></i> Renewal Establishment</a> <!-- Updated icon -->
+        <a href="logout.php" class="btn btn-danger"><i class="icon fas fa-sign-out-alt"></i> Log Out</a> <!-- Updated icon -->
     </div>
 
     <!-- Toggle Button -->
@@ -108,40 +118,39 @@
 
     <!-- Content -->
     <div class="content" id="content">
-      <center>  <h2>Welcome to the BFP Record Management System</h2></center>
+        <center><h2>Welcome to the BFP Record Management System</h2></center>
+        <div class="container">
+            <!-- Folder Grid Layout -->
+            <div class="folder-grid">
+                <!-- Record Management Folder -->
+                <div id="record-management" class="folder-item">
+                    <i class="icon fas fa-clipboard-check"></i> <!-- Updated icon -->
+                    <h5>FOR RENEWAL</h5>
+                    <a href="checklist.php" class="btn btn-primary btn-sm">RENEWAL</a>
+                </div>
 
-        <!-- Folder Grid Layout -->
-        <div class="folder-grid">
-            <!-- Record Management Folder -->
-            <div id="record-management" class="folder-item">
-                <i class="icon">&#128202;</i> <!-- Icon for the folder -->
-                <h5>Fire Safety inspection check list</h5>
-                <p>.</p>
-                <a href="checklist.php" class="btn btn-primary btn-sm">check list</a>
-            </div>
+                <!-- Renewal Establishment Folder -->
+                <div id="renewal-establishment" class="folder-item">
+                    <i class="icon fas fa-file-signature"></i> <!-- Updated icon -->
+                    <h5>NEW APPLICATION</h5>
+                    <a href="#renewal-establishment" class="btn btn-success btn-sm">APPLICATION</a>
+                </div>
 
-            <!-- Renewal Establishment Folder -->
-            <div id="renewal-establishment" class="folder-item">
-                <i class="icon">&#128179;</i> <!-- Icon for the folder -->
-                <h5>Renewal of Establishments</h5>
-                <p>Manage and process the renewal of establishment licenses.</p>
-                <a href="#renewal-establishment" class="btn btn-success btn-sm">Submit Renewal</a>
-            </div>
+                <!-- Additional Content Folder -->
+                <div class="folder-item">
+                    <i class="icon fas fa-cogs"></i> <!-- Updated icon -->
+                    <h5>Additional Section</h5>
+                    <p>Additional functionality such as reports or notifications.</p>
+                    <a href="#" class="btn btn-info btn-sm">Go to Section</a>
+                </div>
 
-            <!-- Additional Content Folder -->
-            <div class="folder-item">
-                <i class="icon">&#128221;</i> <!-- Icon for the folder -->
-                <h5>Additional Section</h5>
-                <p>Additional functionality such as reports or notifications.</p>
-                <a href="#" class="btn btn-info btn-sm">Go to Section</a>
-            </div>
-
-            <!-- Another Folder Item (Example) -->
-            <div class="folder-item">
-                <i class="icon">&#128736;</i> <!-- Icon for the folder -->
-                <h5>Manage Users</h5>
-                <p>Manage users and their permissions within the system.</p>
-                <a href="#" class="btn btn-warning btn-sm">Manage Users</a>
+                <!-- Another Folder Item (Example) -->
+                <div class="folder-item">
+                    <i class="icon fas fa-credit-card"></i> <!-- Updated icon for payment -->
+                    <h5>Manage Payments</h5>
+                    <p>Manage payments and invoices within the system.</p>
+                    <a href="pay.php" class="btn btn-warning btn-sm">PAYMENT</a>
+                </div>
             </div>
         </div>
     </div>
