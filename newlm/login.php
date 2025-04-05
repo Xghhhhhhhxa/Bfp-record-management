@@ -108,7 +108,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
                                 <div class='form-check clearfix my-4'>
                                     <div class="checkbox float-start">
-                                        <a href="index.html" class='float-end'>
+                                        <a href="index.php" class='float-end'>
                                             <small>admin</small>
                                         </a>
                                     </div>

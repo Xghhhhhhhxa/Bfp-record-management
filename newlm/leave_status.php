@@ -26,19 +26,19 @@
                <div class="sidebar-menu">
                   <ul class="menu">
                      <li class="sidebar-item  ">
-                        <a href="employee.html" class='sidebar-link'>
+                        <a href="employee.php" class='sidebar-link'>
                         <i class="fa fa-home text-success"></i>
                         <span>Dashboard</span>
                         </a>
                      </li>
                      <li class="sidebar-item ">
-                        <a href="apply_leave.html" class='sidebar-link'>
+                        <a href="apply_leave.php" class='sidebar-link'>
                         <i class="fa fa-plane text-success"></i>
                         <span>Apply Leave</span>
                         </a>
                      </li>
                      <li class="sidebar-item active">
-                        <a href="leave_status.html" class='sidebar-link'>
+                        <a href="leave_status.php" class='sidebar-link'>
                         <i class="fa fa-plane text-success"></i>
                         <span>Leave Status</span>
                         </a>
@@ -68,10 +68,10 @@
                            <div class="d-none d-md-block d-lg-inline-block">Hi, Employee</div>
                         </a>
                         <div class="dropdown-menu dropdown-menu-end">
-                           <a class="dropdown-item" href="update.html"><i data-feather="user"></i> Account</a>
-                           <a class="dropdown-item" href="update_password.html"><i data-feather="settings"></i> Settings</a>
+                           <a class="dropdown-item" href="update.php"><i data-feather="user"></i> Account</a>
+                           <a class="dropdown-item" href="update_password.php"><i data-feather="settings"></i> Settings</a>
                            <div class="dropdown-divider"></div>
-                           <a class="dropdown-item" href="login.html"><i data-feather="log-out"></i> Logout</a>
+                           <a class="dropdown-item" href="logout.php"><i data-feather="log-out"></i> Logout</a>
                         </div>
                      </li>
                   </ul>
@@ -87,7 +87,7 @@
                         <div class="col-12 col-md-6 order-md-2 order-first">
                             <nav aria-label="breadcrumb" class='breadcrumb-header'>
                                 <ol class="breadcrumb">
-                                    <li class="breadcrumb-item"><a href="index.html" class="text-success">Dashboard</a></li>
+                                    <li class="breadcrumb-item"><a href="index.php" class="text-success">Dashboard</a></li>
                                     <li class="breadcrumb-item active" aria-current="page">Manage Leave Status</li>
                                 </ol>
                             </nav>

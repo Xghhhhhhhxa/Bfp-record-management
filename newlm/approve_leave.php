@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Manage Leave Type</title>
+    <title>Approved</title>
 
     <link rel="stylesheet" href="assets/css/bootstrap.css">
 
@@ -13,11 +13,7 @@
     <script defer src="assets/fontawesome/js/all.min.js"></script>
     <link rel="stylesheet" href="assets/vendors/perfect-scrollbar/perfect-scrollbar.css">
     <link rel="stylesheet" href="assets/css/app.css">
-      <style type="text/css">
-        .notif:hover{
-          background-color: rgba(0,0,0,0.1);
-                  }
-      </style>
+    <link rel="shortcut icon" href="assets/images/favicon.svg" type="image/x-icon">
 </head>
 
 <body>
@@ -31,7 +27,7 @@
                <div class="sidebar-menu">
                   <ul class="menu">
                      <li class="sidebar-item ">
-                        <a href="index.html" class='sidebar-link'>
+                        <a href="index.php" class='sidebar-link'>
                         <i class="fa fa-home text-success"></i>
                         <span>Dashboard</span>
                         </a>
@@ -43,10 +39,10 @@
                         </a>
                         <ul class="submenu ">
                            <li>
-                              <a href="add_department.html">Add Department</a>
+                              <a href="add_department.php">Add Department</a>
                            </li>
                            <li>
-                              <a href="manage_department.html">Manage Department</a>
+                              <a href="manage_department.php">Manage Department</a>
                            </li>
                         </ul>
                      </li>
@@ -57,58 +53,58 @@
                         </a>
                         <ul class="submenu ">
                            <li>
-                              <a href="add_designation.html">Add Designation</a>
+                              <a href="add_designation.php">Add Designation</a>
                            </li>
                            <li>
-                              <a href="manage_designation.html">Manage Designation</a>
+                              <a href="manage_designation.php">Manage Designation</a>
                            </li>
                         </ul>
                      </li>
-                     <li class="sidebar-item  has-sub">
+                     <li class="sidebar-item has-sub">
                         <a href="#" class='sidebar-link'>
                         <i class="fa fa-users text-success"></i>
                         <span>Employees</span>
                         </a>
                         <ul class="submenu ">
                            <li>
-                              <a href="add_employee.html">Add Employee</a>
+                              <a href="add_employee.php">Add Employee</a>
                            </li>
                            <li>
-                              <a href="manage_employee.html">Manage Employee</a>
-                           </li>
-                        </ul>
-                     </li>
-                     <li class="sidebar-item active has-sub">
-                        <a href="#" class='sidebar-link'>
-                        <i class="fa fa-table text-success"></i>
-                        <span>Leave Type</span>
-                        </a>
-                        <ul class="submenu ">
-                           <li>
-                              <a href="add_leave_type.html">Add Leave Type</a>
-                           </li>
-                           <li>
-                              <a href="manage_leave_type.html">Manage Leave Type</a>
+                              <a href="manage_employee.php">Manage Employee</a>
                            </li>
                         </ul>
                      </li>
                      <li class="sidebar-item  has-sub">
                         <a href="#" class='sidebar-link'>
                         <i class="fa fa-table text-success"></i>
+                        <span>Leave Type</span>
+                        </a>
+                        <ul class="submenu ">
+                           <li>
+                              <a href="add_leave_type.php">Add Leave Type</a>
+                           </li>
+                           <li>
+                              <a href="manage_leave_type.php">Manage Leave Type</a>
+                           </li>
+                        </ul>
+                     </li>
+                     <li class="sidebar-item active has-sub">
+                        <a href="#" class='sidebar-link'>
+                        <i class="fa fa-table text-success"></i>
                         <span>Leave Management</span>
                         </a>
                         <ul class="submenu ">
                            <li>
-                              <a href="all_leave.html">All Leaves</a>
+                              <a href="all_leave.php">All Leaves</a>
                            </li>
                            <li>
-                              <a href="pending_leave.html">Pending Leaves</a>
+                              <a href="pending_leave.php">Pending Leaves</a>
                            </li>
                            <li>
-                              <a href="approve_leave.html">Approve Leaves</a>
+                              <a href="approve_leave.php">Approve Leaves</a>
                            </li>
                            <li>
-                              <a href="not_approve_leave.html">Not Approve Leaves</a>
+                              <a href="not_approve_leave.php">Not Approve Leaves</a>
                            </li>
                         </ul>
                      </li>
@@ -119,15 +115,15 @@
                         </a>
                         <ul class="submenu ">
                            <li>
-                              <a href="add_user.html">Add User</a>
+                              <a href="add_user.php">Add User</a>
                            </li>
                            <li>
-                              <a href="manage_user.html">Manage Users</a>
+                              <a href="manage_user.php">Manage Users</a>
                            </li>
                         </ul>
                      </li>
                      <li class="sidebar-item ">
-                        <a href="reports.html" class='sidebar-link'>
+                        <a href="reports.php" class='sidebar-link'>
                         <i class="fa fa-chart-bar text-success"></i>
                         <span>Reports</span>
                         </a>
@@ -160,13 +156,13 @@
                                     <li class="list-group-item border-0 align-items-start">
                                     <div class="row mb-2">
                                     <div class="col-md-12 notif">
-                                            <a href="leave_details.html"><h6 class='text-bold'>John Doe</h6>
+                                            <a href="leave_details.php"><h6 class='text-bold'>John Doe</h6>
                                             <p class='text-xs'>
                                                 applied for leave at 05-21-2021
                                             </p></a>
                                         </div>
                                     <div class="col-md-12 notif">
-                                            <a href="leave_details.html"><h6 class='text-bold'>Jane Doe</h6>
+                                            <a href="leave_details.php"><h6 class='text-bold'>Jane Doe</h6>
                                             <p class='text-xs'>
                                                 applied for leave at 05-21-2021
                                             </p></a>
@@ -188,7 +184,7 @@
                            <a class="dropdown-item" href="#"><i data-feather="user"></i> Account</a>
                            <a class="dropdown-item" href="#"><i data-feather="settings"></i> Settings</a>
                            <div class="dropdown-divider"></div>
-                           <a class="dropdown-item" href="login.html"><i data-feather="log-out"></i> Logout</a>
+                           <a class="dropdown-item" href="login.php"><i data-feather="log-out"></i> Logout</a>
                         </div>
                      </li>
                   </ul>
@@ -199,13 +195,13 @@
                 <div class="page-title">
                     <div class="row">
                         <div class="col-12 col-md-6 order-md-1 order-last">
-                            <h3>Manage Leave Type</h3>
+                            <h3>Approved</h3>
                         </div>
                         <div class="col-12 col-md-6 order-md-2 order-first">
                             <nav aria-label="breadcrumb" class='breadcrumb-header'>
                                 <ol class="breadcrumb">
-                                    <li class="breadcrumb-item"><a href="index.html" class="text-success">Dashboard</a></li>
-                                    <li class="breadcrumb-item active" aria-current="page">Manage Leave Type</li>
+                                    <li class="breadcrumb-item"><a href="index.php" class="text-success">Dashboard</a></li>
+                                    <li class="breadcrumb-item active" aria-current="page">Approved</li>
                                 </ol>
                             </nav>
                         </div>
@@ -217,34 +213,49 @@
                             <table class='table' id="table1">
                                 <thead>
                                     <tr>
-                                        <th>Leave Name</th>
-                                        <th>Description</th>
-                                        <th>Days Allowed</th>
-                                        <th>Creation Date</th>
+                                        <th>Full Name</th>
+                                        <th>Leave Type</th>
+                                        <th>Posting Date</th>
+                                        <th>Status</th>
                                         <th>Action</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td>Casual Leave</td>
-                                        <td>Casual Leave</td>
-                                        <td>3</td>
+                                        <td>John Doe</td>
+                                        <td>Sick Leave</td>
                                         <td>2021-11-01</td>
-                                        <td><a href="editDesignation.php"><i class="fa fa-pen text-success"></i></a>   <a href="editDesignation.php"><i class="fa fa-trash text-danger"></i></a></td>
+                                        <td>
+                                            <span class="badge bg-success">Approved</span>
+                                        </td>
+                                        <td><a href="editDesignation.php"><i class="fa fa-eye text-success"></i></a></td>
                                     </tr>
                                     <tr>
-                                        <td>Restricted Leave</td>
-                                        <td>Restricted Leave</td>
-                                        <td>5</td>
+                                        <td>Juan Dela Cruz</td>
+                                        <td>Sick Leave</td>
                                         <td>2021-11-01</td>
-                                        <td><a href="editDesignation.php"><i class="fa fa-pen text-success"></i></a>   <a href="editDesignation.php"><i class="fa fa-trash text-danger"></i></a></td>
+                                        <td>
+                                            <span class="badge bg-success">Approved</span>
+                                        </td>
+                                        <td><a href="editDesignation.php"><i class="fa fa-eye text-success"></i></a></td>
                                     </tr>
                                     <tr>
-                                        <td>Sick Leave</td>
-                                        <td>Sick Leave</td>
-                                        <td>2</td>
+                                        <td>Cardo Dalisay</td>
+                                        <td>Medical Leave</td>
                                         <td>2021-11-01</td>
-                                        <td><a href="editDesignation.php"><i class="fa fa-pen text-success"></i></a>   <a href="editDesignation.php"><i class="fa fa-trash text-danger"></i></a></td>
+                                        <td>
+                                            <span class="badge bg-success">Approved</span>
+                                        </td>
+                                        <td><a href="editDesignation.php"><i class="fa fa-eye text-success"></i></a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>John Doe</td>
+                                        <td>Sick Leave</td>
+                                        <td>2021-11-01</td>
+                                        <td>
+                                            <span class="badge bg-success">Approved</span>
+                                        </td>
+                                        <td><a href="editDesignation.php"><i class="fa fa-eye text-success"></i></a></td>
                                     </tr>
                                 </tbody>
                             </table>

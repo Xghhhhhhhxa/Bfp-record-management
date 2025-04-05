@@ -38,10 +38,10 @@
                         </a>
                         <ul class="submenu ">
                            <li>
-                              <a href="add_department.html">Add Department</a>
+                              <a href="add_department.php">Add Department</a>
                            </li>
                            <li>
-                              <a href="manage_department.html">Manage Department</a>
+                              <a href="manage_department.php">Manage Department</a>
                            </li>
                         </ul>
                      </li>
@@ -52,10 +52,10 @@
                         </a>
                         <ul class="submenu ">
                            <li>
-                              <a href="add_designation.html">Add Designation</a>
+                              <a href="add_designation.php">Add Designation</a>
                            </li>
                            <li>
-                              <a href="manage_designation.html">Manage Designation</a>
+                              <a href="manage_designation.php">Manage Designation</a>
                            </li>
                         </ul>
                      </li>
@@ -66,10 +66,10 @@
                         </a>
                         <ul class="submenu ">
                            <li>
-                              <a href="add_employee.html">Add Employee</a>
+                              <a href="add_employee.php">Add Employee</a>
                            </li>
                            <li>
-                              <a href="manage_employee.html">Manage Employee</a>
+                              <a href="manage_employee.php">Manage Employee</a>
                            </li>
                         </ul>
                      </li>
@@ -80,10 +80,10 @@
                         </a>
                         <ul class="submenu ">
                            <li>
-                              <a href="add_leave_type.html">Add Leave Type</a>
+                              <a href="add_leave_type.php">Add Leave Type</a>
                            </li>
                            <li>
-                              <a href="manage_leave_type.html">Manage Leave Type</a>
+                              <a href="manage_leave_type.php">Manage Leave Type</a>
                            </li>
                         </ul>
                      </li>
@@ -94,16 +94,16 @@
                         </a>
                         <ul class="submenu ">
                            <li>
-                              <a href="all_leave.html">All Leaves</a>
+                              <a href="all_leave.php">All Leaves</a>
                            </li>
                            <li>
-                              <a href="pending_leave.html">Pending Leaves</a>
+                              <a href="pending_leave.php">Pending Leaves</a>
                            </li>
                            <li>
-                              <a href="approve_leave.html">Approve Leaves</a>
+                              <a href="approve_leave.php">Approve Leaves</a>
                            </li>
                            <li>
-                              <a href="not_approve_leave.html">Not Approve Leaves</a>
+                              <a href="not_approve_leave.php">Not Approve Leaves</a>
                            </li>
                         </ul>
                      </li>
@@ -114,15 +114,15 @@
                         </a>
                         <ul class="submenu ">
                            <li>
-                              <a href="add_user.html">Add User</a>
+                              <a href="add_user.php">Add User</a>
                            </li>
                            <li>
-                              <a href="manage_user.html">Manage Users</a>
+                              <a href="manage_user.php">Manage Users</a>
                            </li>
                         </ul>
                      </li>
                      <li class="sidebar-item ">
-                        <a href="reports.html" class='sidebar-link'>
+                        <a href="reports.php" class='sidebar-link'>
                         <i class="fa fa-chart-bar text-success"></i>
                         <span>Reports</span>
                         </a>
@@ -155,13 +155,13 @@
                                     <li class="list-group-item border-0 align-items-start">
                                     <div class="row mb-2">
                                     <div class="col-md-12 notif">
-                                            <a href="leave_details.html"><h6 class='text-bold'>John Doe</h6>
+                                            <a href="leave_details.php"><h6 class='text-bold'>John Doe</h6>
                                             <p class='text-xs'>
                                                 applied for leave at 05-21-2021
                                             </p></a>
                                         </div>
                                     <div class="col-md-12 notif">
-                                            <a href="leave_details.html"><h6 class='text-bold'>Jane Doe</h6>
+                                            <a href="leave_details.php"><h6 class='text-bold'>Jane Doe</h6>
                                             <p class='text-xs'>
                                                 applied for leave at 05-21-2021
                                             </p></a>
