@@ -1,0 +1,64 @@
+
+body {
+    background-image: linear-gradient(to right, rgba(255, 60, 0, 0.493), rgba(0, 0, 255, 0.539)), url('../img/bfp_bg.gif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  .logo-row {
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .logo-img {
+    width: 60px;
+    height: auto;
+    margin: 0 5px; /* fallback spacing */
+  }
+  
+  .logo-text {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    white-space: nowrap;
+    padding: 0 8px; /* extra space around text */
+  }
+  
+  .card {
+    background-color: transparent;
+    width: 100%;
+    max-width: 500px;
+    margin: 20px auto;
+  }
+  
+  .card-body {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  @media (max-width: 768px) {
+    .logo-img {
+      width: 50px;
+    }
+  
+    .logo-text {
+      font-size: 14px;
+    }
+  
+    .card-body {
+      padding: 20px;
+    }
+  
+    .card {
+      width: 90%;
+    }
+  }
+  

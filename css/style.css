@@ -1,42 +1,74 @@
 
-        .sidebar {
-            height: 100vh;
-            background-color: #343a40;
-            color: white;
-            padding-top: 20px;
-        }
-
-        .sidebar a {
-            color: white;
-            text-decoration: none;
-            padding: 10px;
-            display: block;
-        }
-
-        .sidebar a:hover {
-            background-color: #575757;
-        }
-
-        /* Content */
-        .content {
-            margin-left: 220px;
+        /* Custom Styles for Folder Grid */
+        .folder-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
             padding: 20px;
         }
 
-        /* Back-to-top button */
-        .back-to-top {
-            position: fixed;
-            bottom: 20px;
-            right: 20px;
-            background-color: #007bff;
-            color: white;
-            padding: 10px;
-            border-radius: 50%;
-            cursor: pointer;
-            display: none;
+        .folder-item {
+            background-color: #f0f0f0;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            transition: all 0.3s ease-in-out;
         }
 
-        /* Show back-to-top button when scrolled down */
-        .back-to-top.show {
-            display: block;
+        .folder-item:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+        }
+
+        .folder-item i {
+            font-size: 50px;
+            color: #007bff;
+            margin-bottom: 15px;
+        }
+
+        .folder-item h5 {
+            margin-top: 10px;
+            font-size: 18px;
+            color: #007bff;
+        }
+
+        .folder-item p {
+            font-size: 14px;
+            color: #666;
+        }
+
+        /* Button Style */
+        .folder-item .btn {
+            margin-top: 10px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            text-transform: uppercase;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .folder-item .btn:hover {
+            background-color: #0056b3;
+            cursor: pointer;
+        }
+
+        /* Search bar styling */
+        .search-bar {
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        /* Optional: Styling for the grid container */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fafafa;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
         }

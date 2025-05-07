@@ -1,0 +1,43 @@
+
+body{
+    overflow: hidden;
+}
+.logo-class {
+  max-height: 50px;
+  height: auto;
+}
+.sidebar-brand-icon {
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#calendar {
+  min-height: 500px;
+  max-width: 100%;
+  overflow-x: auto;
+}
+/* Ensures the content area is scrollable but the sidebar remains unaffected */
+#content-wrapper {
+height: 100vh; /* Ensure the content wrapper takes full viewport height */
+overflow-y: auto; /* Allows scrolling on content wrapper */
+}
+
+#content {
+padding: 20px; /* Adds padding for aesthetics */
+}
+
+/* Optional: To avoid a horizontal scrollbar on the content wrapper */
+#content-wrapper::-webkit-scrollbar {
+width: 8px;
+}
+
+#content-wrapper::-webkit-scrollbar-thumb {
+background: #888;
+border-radius: 10px;
+}
+
+#content-wrapper::-webkit-scrollbar-thumb:hover {
+background: #555;
+}
+

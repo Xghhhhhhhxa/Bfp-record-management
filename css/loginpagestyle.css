@@ -1,0 +1,94 @@
+
+body {
+  /* Linear gradient background */
+  background-image: linear-gradient(to right, rgba(255, 60, 0, 0.493), rgba(0, 0, 255, 0.539)), url('../img/bfp_bg.gif');
+  background-size: cover;
+  height: 100vh; /* Full screen height */
+  display: flex;
+  align-items: center; /* Center vertically */
+  justify-content: center; /* Center horizontally */
+  font-family: "Roboto", sans-serif;
+  
+}
+
+.logo-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 600px; /* Ensure the container doesn't stretch too much */
+  margin-bottom: 20px;
+}
+
+.logo-container img {
+  width: 80px; /* Default logo size */
+  height: auto;
+  max-width: 100%;
+}
+
+.logo-text {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  flex-grow: 1; /* This allows the text to take up available space between logos */
+  margin: 0 10px;
+
+}
+
+.card {
+  background-color: transparent; /* Ensure the card itself is transparent */
+  width: 100%;
+  max-width: 500px; /* Max width of the card */
+  margin: 20px auto; /* Center the card horizontally */
+}
+
+.card-body {
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background for the card */
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Shadow for better visibility */
+}
+
+.card-title {
+  margin-bottom: 20px;
+}
+
+.form-control {
+  margin-bottom: 15px; /* Add space between form fields */
+}
+
+@media (max-width: 768px) {
+  .logo-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .logo-container img {
+    width: 60px; /* Smaller logo size for smaller screens */
+    margin-bottom: 10px;
+  }
+
+  .logo-text {
+    margin: 0;
+    margin-bottom: 10px;
+  }
+
+  .card-body {
+    padding: 20px; /* Reduce padding on smaller screens */
+  }
+
+  .card {
+    width: 90%; /* Allow card to take more width on smaller screens */
+  }
+}
+
+@media (max-width: 576px) {
+  .logo-container img {
+    width: 50px; /* Even smaller logos for very small screens */
+  }
+
+  .card {
+    width: 100%; /* Make the card take full width on very small screens */
+  }
+}
